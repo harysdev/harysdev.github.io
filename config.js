@@ -4,11 +4,9 @@
 const CONFIG = {
 	// Basic Profile Information
 	profile: {
-		image: "https://profilie.js.org/media/logo.png",
-		name: "Profilie Starter Kit - Free Templates for Social Profiles",
-		description: `A free pre-built templates for social profiles, portfolios & websites. Quickly create a sweet-looking website to highlight your social media presence.
-                  
-                  Customize your profile by visiting your <code>config.js</code> file in your own repository. You can also change this description to your desired one.`,
+		image: "https://harysdev.github.io/media/logo.png",
+		name: "harysdev",
+		description: "Hello there, welcome to my website. Here are my all socials given below.",
 
     // You may change the footer of your profile but keeping it intact will be appreciated.
 		footer: "Powered by <a href='https://github.com/profilie/profilie' target='_blank'>Profilie</a> - Free Templates for Social Profiles"
@@ -21,7 +19,7 @@ const CONFIG = {
 		// Popular Development Platforms
 		github: {
 			enabled: true,
-			url: "https://github.com/profilie/",
+			url: "https://github.com/harysdev/",
 			title: "GitHub"
 		},
 		gitlab: {
@@ -35,8 +33,8 @@ const CONFIG = {
 			title: "Bitbucket"
 		},
 		codepen: {
-			enabled: false,
-			url: "https://codepen.io/your-username",
+			enabled: true,
+			url: "https://codepen.io/harysdev",
 			title: "CodePen"
 		},
 		replit: {
@@ -52,12 +50,12 @@ const CONFIG = {
 
 		// Communication Platforms
 		discord: {
-			enabled: false,
-			url: "https://discord.com/users/your-user-id",
+			enabled: true,
+			url: "https://discord.com/users/1405482236970799217",
 			title: "Discord"
 		},
 		email: {
-			enabled: true,
+			enabled: false,
 			url: "mailto:hello@profilie.harys.is-a.dev",
 			title: "Email"
 		},
@@ -84,8 +82,8 @@ const CONFIG = {
 
 		// Social Media Platforms
 		reddit: {
-			enabled: false,
-			url: "https://reddit.com/user/your-username/",
+			enabled: true,
+			url: "https://reddit.com/user/harysdev/",
 			title: "Reddit"
 		},
 		twitter: {
@@ -120,7 +118,7 @@ const CONFIG = {
 		},
 		bluesky: {
 			enabled: false,
-			url: "https://bsky.app/profile/your-bluesky-handle",
+			url: "https://bsky.app/profile/",
 			title: "Bluesky"
 		},
 		threads: {
@@ -158,8 +156,8 @@ const CONFIG = {
 
 		// Content Creation Platforms
 		youtube: {
-			enabled: false,
-			url: "https://youtube.com/@your-channel",
+			enabled: true,
+			url: "https://youtube.com/@harysdev",
 			title: "YouTube"
 		},
 		twitch: {
@@ -272,7 +270,7 @@ const CONFIG = {
 		// Personal Website/Portfolio
 		website: {
 			enabled: true,
-			url: "https://profilie.js.org/",
+			url: "https://harysdev.github.io/",
 			title: "Profilie"
 		}
 	}
